@@ -1,0 +1,23 @@
+{
+  "name": "temporal-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harry Brundage",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@temporalio/client": "^0.21.0",
+    "@temporalio/worker": "^0.21.1",
+    "@tsconfig/node16": "^1.0.2",
+    "babel-jest": "^28.0.0",
+    "fs-extra": "^10.1.0",
+    "jest": "^28.0.0",
+    "nanoid": "^3.3.3",
+    "p-map": "4.0.0",
+    "p-memoize": "4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
